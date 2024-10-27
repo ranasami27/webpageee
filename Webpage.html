@@ -1,0 +1,159 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        .header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 28px;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 10px;
+        }
+        .nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 40px;
+            background-color: #ecf0f1;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Car List */
+        .car-list {
+            padding: 40px 20px;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+        .car-list h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .car-item {
+            display: inline-block;
+            width: 280px;
+            margin: 20px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+        .car-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .car-item h4 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .car-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        .car-item button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .car-item button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header class="header">
+        <h1>Premium Zone Rentals</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <h2>Find Your Perfect Rental Car</h2>
+            <p>Choose from a variety of cars to suit your travel needs.</p>
+        </section>
+
+        <section id="cars" class="car-list">
+            <h3>Available Cars</h3>
+            <div class="car-item">
+                <img src="sedan.jpg"" alt="Sedan Car">
+                <h4>Sedan</h4>
+                <p>Price: $40/day</p>
+                <button>Book Now</button>
+            </div>
+            <div class="car-item">
+                <img src="suv.jpg" alt="SUV Car">
+                <h4>SUV</h4>
+                <p>Price: $60/day</p>
+                <button>Book Now</button>
+            </div>
+            <div class="car-item">
+                <img src="luxury.jpg" alt="Luxury Car">
+                <h4>Luxury</h4>
+                <p>Price: $100/day</p>
+                <button>Book Now</button>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
